@@ -5,7 +5,7 @@ import { ShuffleText } from "../utils/ShuffleText";
 
 const Header = () => {
   return (
-    <div className="flex items-center  bg-black justify-center relative">
+    <div className="flex items-center  bg-black justify-center relative font-mono">
       {/* NAV */}
 
       <div className="flex overflow-hidden items-start justify-center relative">
@@ -27,16 +27,16 @@ const Header = () => {
             OXYGEN REPUBLIC
           </a>
           <div className="text-md sm:text-xl md:text-2xl items-center justify-center mt-4 space-x-6 md:space-x-20 ">
-            <a href="#" className="border-b-2 pb-1">
+            <a href="/iletisim" className="border-b-2 pb-1">
               İletişim
             </a>
             <a href="/galeri" className="border-b-2 pb-1">
               Galeri
             </a>
-            <a href="#" className="border-b-2 pb-1">
+            <a href="/hakkimizda" className="border-b-2 pb-1">
               Hakkımızda
             </a>
-            <a href="#" className="border-b-2 pb-1">
+            <a href="/kayitol" className="border-b-2 pb-1">
               Kayıt Ol
             </a>
           </div>

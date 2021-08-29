@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div>
+    <div className="font-mono">
       <div className=" flex flex-col relative items-center justify-center w-full z-40 text-gray-100  ">
         {/* logo */}
         <a
@@ -9,17 +9,17 @@ const Navbar = () => {
         >
           OXYGEN REPUBLIC
         </a>
-        <div className="text-md sm:text-xl md:text-2xl items-center justify-center mt-4 space-x-6 md:space-x-20 ">
-          <a href="#" className="border-b-2 pb-1">
+        <div className="text-sm sm:text-lg md:text-2xl items-center justify-center mt-4 space-x-6 md:space-x-20 ">
+          <a href="/iletisim" className="border-b-2 pb-1">
             İletişim
           </a>
-          <a href="#" className="border-b-2 pb-1">
+          <a href="/galeri" className="border-b-2 pb-1">
             Galeri
           </a>
-          <a href="#" className="border-b-2 pb-1">
+          <a href="/hakkimizda" className="border-b-2 pb-1">
             Hakkımızda
           </a>
-          <a href="#" className="border-b-2 pb-1">
+          <a href="/kayitol" className="border-b-2 pb-1">
             Kayıt Ol
           </a>
         </div>

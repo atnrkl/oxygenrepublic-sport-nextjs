@@ -2,10 +2,11 @@ import sidePic from "../images/side-pic-2.jpg";
 import Image from "next/image";
 
 import { FaInstagram, FaTwitter, FaWhatsapp, FaFacebook } from "react-icons/fa";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
-    <div className="bg-black text-gray-200 ">
+    <div className="bg-black text-gray-200 font-mono ">
       {/* INFO */}
       <div className="flex p-5  items-center justify-center">
         <div className="max-w-2xl">
@@ -32,29 +33,7 @@ const Main = () => {
       {/* BOTTOM INFO */}
 
       {/* CONTACT */}
-      <div className="flex flex-col items-center">
-        <div className="flex h-40 p-30 w-full  space-x-6 items-center justify-center">
-          <div className="flex space-x-7">
-            <FaFacebook
-              size={25}
-              className="text-gray-200 hover:text-blue-800"
-            />
-            <FaInstagram
-              size={25}
-              className="text-gray-200 hover:text-pink-600"
-            />
-            <FaTwitter
-              size={25}
-              className="text-gray-200 hover:text-blue-800"
-            />
-            <FaWhatsapp
-              size={25}
-              className="text-gray-200 hover:text-whatsapp_green"
-            />
-          </div>
-        </div>
-        <p>© 2021</p>
-      </div>
+      <Footer />
     </div>
   );
 };

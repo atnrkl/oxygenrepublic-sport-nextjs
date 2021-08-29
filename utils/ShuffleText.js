@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { useDencrypt } from "use-dencrypt-effect";
 
 const values = ["asla durma", "yorulmana değecek", "pes etme"];
